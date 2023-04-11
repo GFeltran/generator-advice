@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gerador de Conselhos</title>
+    <link rel="shortcut icon" href="./src/img/favicon-32x32.png" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variable.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="card">
+        <section class="advice">
+            <h1 class="advice-id" >Advice #<span id="advice-id"></span></h1>
+            <p class="advice-desc" id="advice-desc"></p>
+
+            <picture>
+                <source media="(max-width: 475px)" srcset="./src/img/pattern-divider-mobile.svg">
+                <img src="./src/img/pattern-divider-desktop.svg" alt="Pattern divider">
+            </picture>
+
+            <button class="advice-update" id="btn-update">
+                <img src="./src/img/icon-dice.svg" alt="Dice icon">
+            </button>
+        </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
